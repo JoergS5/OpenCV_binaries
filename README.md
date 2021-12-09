@@ -8,6 +8,6 @@ To use:
 - properties - C/C++ Build - Settings - MinGW C++ Linker - Libraries - -l opencv_core454.dll (all .a files withouth extension)
 
 usage in code:
-#include <opencv2/core.hpp>
-#include <opencv2/highgui.hpp>
-cv::Mat image = cv::imread("...");
+- #include <opencv2/core.hpp>
+- #include <opencv2/highgui.hpp>
+- cv::Mat image = cv::imread("...");
